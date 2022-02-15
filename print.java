@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class main{
     public static void main(String[] args){
         
-        int num = 5;
+        int num = 9;
         
         System.out.println("Namaste World " + num);
         
