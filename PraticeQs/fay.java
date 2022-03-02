@@ -11,6 +11,6 @@ public class fay{
             sum=sum+a;
         }
         System.out.println(sum);
-        
+        sc.close();
     }
 }

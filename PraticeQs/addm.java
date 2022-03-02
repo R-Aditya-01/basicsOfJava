@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class array{
+public class addm{
     public static void main(String[] args){
         
         int [][] m1 = new int[2][3];
@@ -47,6 +47,6 @@ public class array{
             System.out.println(" ");
         }
         
-        
+        sc.close();
     }
 }

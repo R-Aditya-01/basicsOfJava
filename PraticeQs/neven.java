@@ -1,4 +1,4 @@
-public class array{
+public class neven{
     public static void main(String[] args){
         
         int n = 10,cout = 1,sum=0;

@@ -18,6 +18,8 @@ public class present{
                 System.out.printf("Element '%d' found at index '%d' \n",a,i);
             }
         }
+        sc.close();
     }
+    
 }
 
