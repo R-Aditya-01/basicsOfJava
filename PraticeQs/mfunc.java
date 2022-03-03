@@ -13,6 +13,7 @@ class mfunc{
     public static void main(String[] args) {
         System.out.println("Namaste World");
          multi(5);
+         multi(6);
 
     }
 }
