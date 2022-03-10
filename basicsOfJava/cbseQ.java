@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class cbse{
+public class cbseQ{
     public static void main(String[] args){
         
         System.out.println("-----------Calculate CBSE Marks %-----------");
@@ -20,6 +20,7 @@ public class cbse{
         float percnt = sum/500 * 100;
         System.out.println("Your Cbse percentage :" + percnt);
         System.out.println(percnt);
+        sc.close();
     }
     
 }

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"basicsOfJava/basicsOfJava",
+			"basicsOfJava/Cyclesheet qs"
+		]
+	}
+}

@@ -1,6 +1,6 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class Strings{
+public class strings{
     public static void main(String[] args){
         
         String s = " Life is SuffeRING";
@@ -8,7 +8,7 @@ public class Strings{
         
         // System.out.println(s.toLowerCase()); '1st q done'
         // System.out.println(s.replace(" ","_")); '2nd q done'
-        // System.out.printf(s,"L"); '3rd q done'
+        System.out.printf(s,"L"); //'3rd q done'
         // System.out.println(s.indexOf(" "));
     }
 }

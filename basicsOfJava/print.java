@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class main{
+public class print{
     public static void main(String[] args){
         
         int num = 9;
@@ -11,5 +11,6 @@ public class main{
         int a= scan.nextInt();
         System.out.print("The number is :");
         System.out.print(a);
+        scan.close();
     }
 }

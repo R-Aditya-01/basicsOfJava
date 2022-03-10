@@ -20,7 +20,7 @@ public class My_18{
             }
             System.out.println(" ");
         }
-        
+        sc.close();
         
     }
 }
