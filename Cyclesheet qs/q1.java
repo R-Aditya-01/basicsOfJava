@@ -8,7 +8,7 @@ public class q1 {
 		System.out.println("Namaste World");
 		Scanner scc = new Scanner(System.in);
 		int num = scc.nextInt();
-		int ic = 0, fc = 0, stc = 0;
+		int ic = 0, fc = 0, stc = 0, csum = 0;
 
 		for (int i = 0; i < num; i++) {
 
@@ -25,6 +25,8 @@ public class q1 {
 				System.out.println("float");
 				fc++;
 				float cgpa = sc1.nextFloat();
+				csum += cgpa;
+
 			} else if (sc1.hasNextLine()) {
 				System.out.println("string");
 				stc++;
@@ -32,7 +34,10 @@ public class q1 {
 			}
 		}
 
-		System.out.print(ic + "\n" + fc + "\n" + stc);
+		double avg = csum / fc;
+
+		System.out.print(ic + "\n" + fc + "\n" + stc + "\n" + avg);
+		// System.out.printf(%.3f %n,avg);
 
 		// sc.close();4
 	}
