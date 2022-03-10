@@ -15,7 +15,7 @@ public class q1 {
 			Scanner sc1 = new Scanner(System.in);
 
 			if (sc1.hasNextInt()) {
-				System.out.println("int");
+
 				int rn = sc1.nextInt();
 				if (rn < s) {
 					s = rn;
@@ -27,27 +27,24 @@ public class q1 {
 
 				ic++;
 			} else if (sc1.hasNextFloat()) {
-				System.out.println("float");
 				fc++;
 				float cgpa = sc1.nextFloat();
 				csum += cgpa;
 
 			} else if (sc1.hasNextLine()) {
-				System.out.println("string");
 				stc++;
 				String nam = sc1.nextLine();
 				con += nam + ",";
 			}
-			sc1.close();
+
 		}
 
 		float avg = csum / fc;
-
+		System.out.println();
 		System.out.println(ic + "\n" + fc + "\n" + stc + "\n" + avg);
 		System.out.println(s + "\n" + l);
 		System.out.println(con);
 
-		scc.close();
-
 	}
+
 }
