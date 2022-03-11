@@ -1,24 +1,20 @@
 import java.util.Scanner;
 
 class q3a {
-    static int calc(int n) {
-        if (n == 1)
-            return n;
-        int value = n;
-        for (int i = n; i > 1; --i) {
-            value += (int) Math.pow(10, i - 1) * n;
-        }
-
-        return value - calc(n - 1);
-    }
-
-    // Driver code
-    public static void main(String ar[]) {
-        // no. of terms to find the sum
+    public static void main(String[] args) {
+        int x, Sum = 0;
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
-        System.out.println("Sum is " + calc(n));
-        sc.close();
-
+        for (int i = 1; i < n + 1; i++) {
+            x = 0;
+            for (int j = 0; j < i; j++) {
+                x += Math.pow(10, j) * i;
+                if ((i % 2) == 0)
+                    x = -x;
+                Sum += x;
+            }
+        }
+        System.out.println("Sum: " + Sum);
     }
 }

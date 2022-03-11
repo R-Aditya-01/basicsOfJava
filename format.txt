@@ -7,3 +7,5 @@ public class 18_My{
 for(int i = 0 ; i<5;i++){
             
         }
+
+        Ho = ((24*3.6)/pi * 1374 .*((pi/180).*ws.*sin((pi/180)*decangle).*sin((pi/180)*lat)+cos((pi/180)*decangle).*cos((pi/180)*lat).*cos((pi/180)*ws)))
