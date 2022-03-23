@@ -36,6 +36,7 @@ public class q1 {
 				String nam = sc1.nextLine();
 				con += nam + ",";
 			}
+			sc1.close();
 
 		}
 
@@ -44,6 +45,7 @@ public class q1 {
 		System.out.println(ic + "\n" + fc + "\n" + stc + "\n" + avg);
 		System.out.println(s + "\n" + l);
 		System.out.println(con);
+		scc.close();
 
 	}
 
