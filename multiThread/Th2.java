@@ -1,9 +1,11 @@
 
 class mythr extends Thread {
     // creating a constructor
-    public mythr(String name) {
+    String n;
 
-        super(name);
+    public mythr(String name) {
+        super(name); // super func is connected to t.getname();
+        this.n = name; // constructor [this]
     }
 
     public void run() {
@@ -15,6 +17,11 @@ class mythr extends Thread {
 public class Th2 {
     public static void main(String[] args) {
         mythr t = new mythr("ASR");
+        mythr t2 = new mythr("RSA");
         t.start();
+        t2.start();
+        System.out.println(t.getName());
+        System.out.println(t.n);
+        System.out.println(t2.n);
     }
 }
