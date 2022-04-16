@@ -6,9 +6,10 @@
 	],
 	"settings": {
 		"java.project.sourcePaths": [
+			"basicsOfJava/multiThread",
 			"basicsOfJava/basicsOfJava",
 			"basicsOfJava/Cyclesheet qs",
-			"basicsOfJava/multiThread"
+			"basicsOfJava"
 		]
 	}
 }
