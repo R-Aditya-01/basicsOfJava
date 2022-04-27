@@ -3,7 +3,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
-import javafx.event.ActionEvent;
 
 public class namasteworld extends Application {
     public static void main(String[] args) {
@@ -12,14 +11,20 @@ public class namasteworld extends Application {
     }
 
     public void start(Stage s) throws Exception {
-        s.setTitle("Namaste World");
+        s.setTitle(" World ");
         Button b = new Button("Namaste World!");
-        b.setOnAction((event) -> {
+        Button ex = new Button("Exit");
+        ex.setOnAction(e -> {
+            System.out.println("Namaste!");
+            System.exit(0);
+
+        });
+        b.setOnAction((event) -> { // lamda expressionl
             System.out.println("Namaste World");
         });
 
         StackPane root = new StackPane();
-        root.getChildren().add(b);
+        root.getChildren().addAll(b, ex);
         Scene scene = new Scene(root, 200, 100);
         s.setScene(scene);
         s.show();
