@@ -2,7 +2,7 @@ import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.scene.control.Button;
-import javafx.scene.layout.StackPane;
+import javafx.scene.layout.FlowPane;
 
 public class namasteworld extends Application {
     public static void main(String[] args) {
@@ -23,7 +23,7 @@ public class namasteworld extends Application {
             System.out.println("Namaste World");
         });
 
-        StackPane root = new StackPane();
+        FlowPane root = new FlowPane();
         root.getChildren().addAll(b, ex);
         Scene scene = new Scene(root, 200, 100);
         s.setScene(scene);

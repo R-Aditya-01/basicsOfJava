@@ -6,6 +6,45 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch N2",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/adity/Downloads/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "N2",
+            "projectName": "firstprojectFX_c2e44441"
+        },
+        {
+            "type": "java",
+            "name": "Launch NoteTaker",
+            "request": "launch",
+            "mainClass": "NoteTaker",
+            "projectName": "firstprojectFX_c2e44441"
+        },
+        {
+            "type": "java",
+            "name": "Launch MenuBarEx",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/adity/Downloads/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "MenuBarEx",
+            "projectName": "firstprojectFX_c2e44441"
+        },
+        {
+            "type": "java",
+            "name": "Launch RadioButtonEx",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/adity/Downloads/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "RadioButtonEx",
+            "projectName": "firstprojectFX_c2e44441"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckBoxEx",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/adity/Downloads/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "CheckBoxEx",
+            "projectName": "firstprojectFX_c2e44441"
+        },
+        {
+            "type": "java",
             "name": "Launch num2",
             "request": "launch",
             "vmArgs": "--module-path C:/Users/adity/Downloads/javafx-sdk-18.0.1/lib --add-modules javafx.controls,javafx.fxml",
